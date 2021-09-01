@@ -1,0 +1,37 @@
+
+<app-drawer>
+  <div fxFlex fxLayoutAlign="flex-end center">
+    <button class="add-card" (click)="addEditList(list)" mat-raised-button color="primary">ADD LIST</button>
+  </div>
+
+    <div *ngFor="let board of boards; let boardIndex = index;" class="board" cdkDropList cdkDropListDisabled [cdkDropListData]="board.tracks" (cdkDropListDropped)="onListDrop($event)"
+    cdkDropListOrientation="horizontal">
+    
+    <div cdkDrag class="card-list mat-elevation-z8" *ngFor="let list of board.tracks; let trackIndex = index;">
+      <div class="row" fxLayoutAlign="start center">
+        <h2 fxFlex="80" class="mat-h2"><span contenteditable [textContent]="list?.title" (input)="list.title=$event.target.textContent"></span></h2>
+        <div fxFlex="20" fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="5px" cdkDragHandle>
+          <!-- Filter and closing-->
+          <mat-icon (click)="deleteTrack(list)" class="icon">cancel</mat-icon>
+        </div>
+      </div>
+
+      <!--Cards list -->
+      <div class="card-list-content" cdkDropList [id]="list.id" [cdkDropListData]="list.talks"
+        [cdkDropListConnectedTo]="trackIds(boardIndex)" (cdkDropListDropped)="onTalkDrop($event)">
+
+        <app-card *ngFor="let card of list.talks" [title]="card.title" [createdAt]="card?.createdAt"  [colorType]="card?.colorType" [desc]="card.desc"
+         cdkDrag (edit)="addEditCard(card, list)" (delete)="deleteCard(card, list)"></app-card>
+      </div>
+
+      <div fxLayout="row" fxLayoutAlign="baseline baseline">
+        
+          <mat-icon (click)="addEditCard(list, list)" class="icon2" color="primary">add_circle_outline</mat-icon>
+      
+      </div>
+    </div>
+
+  </div>
+</app-drawer>
+
+<!-- <router-outlet></router-outlet> -->

@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Day 1",
+    "tracks": [
+      {
+        "id": "track-one",
+        "title": "List 1",
+        "talks": [
+          {
+            "colorType": "4",
+            "title": "Product",
+            "desc": "3 pending tasks to be picked",
+            "createdAt": "2019-03-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "3",
+            "title": "Sales",
+            "desc": "Send proposal to Tom for prices",
+            "createdAt": "2020-02-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "2",
+            "title": "Operations",
+            "desc": "Deployment by Binod",
+            "createdAt": "2020-10-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "AI",
+            "desc": "Regression Analysis by Elon",
+            "createdAt": "2020-04-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "5",
+            "title": "Operations",
+            "desc": "Jenkins CI/CD deployment",
+            "createdAt": "2020-05-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "5",
+            "title": "Sales",
+            "desc": "Price check by Jeff, my name is jeff",
+            "createdAt": "2020-06-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "UAT Testing",
+            "desc": "123 123 testing",
+            "createdAt": "2020-07-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "Design",
+            "desc": "bgcolor ngstyle fontsize teasting and handling",
+            "createdAt": "2020-08-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "Cyber Security",
+            "desc": "Kali linux installation required",
+            "createdAt": "2020-09-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "Unit Testing",
+            "desc": "Test cases 1 Test cases 2 Test Cases 3",
+            "createdAt": "2018-01-01T09:26:05.026Z"
+          }
+        ]
+      },
+      {
+        "id": "track-two",
+        "title": "List 2",
+        "talks": [
+          {
+            "colorType": "3",
+            "title": "UI",
+            "desc": "Angular material apps development, spring batch added",
+            "createdAt": "2020-11-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "4",
+            "title": "UX",
+            "desc": "document.designmode",
+            "createdAt": "2020-12-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "2",
+            "title": "Design",
+            "desc": "bgcolor ngstyle fontsize teasting and handling",
+            "createdAt": "2019-01-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "5",
+            "title": "Design",
+            "desc":"bgcolor ngstyle fontsize teasting and handling",
+            "createdAt": "2019-02-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "Sales",
+            "desc": "Stock buys sale",
+            "createdAt": "2019-03-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "Operations",
+            "desc": "new pc installation, routers to be added",
+            "createdAt": "2019-04-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "Product",
+            "desc": "bgcolor ngstyle fontsize teasting and handling",
+            "createdAt": "2019-05-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "UAT Testing",
+            "desc": "Test cases 1 Test cases 2 Test Cases 3",
+            "createdAt": "2019-06-01T09:26:05.026Z"
+          }
+        ]
+      },
+      {
+        "id": "track-3",
+        "title": "List 3",
+        "talks": [
+          {
+            "colorType": "1",
+            "title": "UAT Testing",
+            "desc": "Test cases 1 Test cases 2 Test Cases 3",
+            "createdAt": "2019-07-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "Product",
+            "desc": "Product design parameters",
+            "createdAt": "2019-08-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "UI",
+            "desc": "Clean Clean clean",
+            "createdAt": "2019-09-01T09:26:05.026Z"
+          }
+        ]
+      },
+      {
+        "id": "track-4",
+        "title": "List 4",
+        "talks": [
+          {
+            "colorType": "1",
+            "title": "Sales",
+            "desc":"Randomise",
+            "createdAt": "2019-10-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "DevOps",
+            "createdAt": "2019-10-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "Development",
+            "createdAt": "2019-11-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "Management",
+            "createdAt": "2019-12-01T09:26:05.026Z"
+          }
+        ]
+      },
+      {
+        "id": "track-5",
+        "title": "List 5",
+        "talks": [
+          {
+            "colorType": "1",
+            "title": "Development",
+            "desc": "Angular material apps development, spring batch added",
+            "createdAt": "2019-01-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "UI",
+            "desc": "bgcolor ngstyle fontsize teasting and handling",
+            "createdAt": "2019-02-01T09:26:05.026Z"
+          },
+          {
+            "colorType": "1",
+            "title": "Operations",
+            "desc": "New pc installation, routers to be added",
+            "createdAt": "2019-03-01T09:26:05.026Z"
+          }
+        ]
+      }
+    ]
+  }
+]

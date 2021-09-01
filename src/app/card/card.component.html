@@ -1,0 +1,11 @@
+<mat-card  [style.backgroundColor]="issueTypesWithColor[colorType]?.color" class="card">
+
+  <mat-card-content>
+      <b>{{title}}</b>
+      <br><br><br><br>
+      <div *ngIf="desc">{{desc}}</div>
+
+    <mat-icon (click)="delete.next()" class="icon">cancel_outline</mat-icon>
+  </mat-card-content>
+ 
+</mat-card>

@@ -1,5 +1,6 @@
 # Trello like app in Angular
 
+Deployed at: https://trelloclone-tan123.netlify.app/
 
 <details>
   <summary>Table Of Content</summary>
@@ -8,6 +9,6 @@
 
 Steps to run:
 
-1)The file already has all the dependencies including node_modules, no need to use any commands like npm install.
+1)No need to use any commands like npm install.
 2) Open VS Code-> File-> Open Folder->Select the folder in which 'trelloclone folder' exists. 
 3) Open terminal->ng serve. 
